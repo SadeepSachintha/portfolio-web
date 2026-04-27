@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Science Portfolio | MSc</title>
+    <meta name="description" content="Portfolio of a Data Scientist transitioning from Senior Service Desk Analyst.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Background Elements -->
+    <div class="bg-shape shape-1"></div>
+    <div class="bg-shape shape-2"></div>
+    <div class="bg-shape shape-3"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#hero" class="logo">DS<span>.</span>Portfolio</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="container hero-container">
+            <div class="hero-content reveal">
+                <p class="greeting">Hello, I am transitioning into</p>
+                <h1 class="glitch-text" data-text="Data Science.">Data Science.</h1>
+                <p class="subtitle">With an MSc and a strong foundation as a Senior Service Desk Analyst, I bridge the gap between IT operations and predictive analytics.</p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Let's Talk</a>
+                </div>
+                <div class="social-links">
+                    <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="hero-image reveal right">
+                <div class="image-wrapper glass-panel">
+                    <div class="code-snippet">
+                        <pre><code><span class="keyword">import</span> pandas <span class="keyword">as</span> pd
+<span class="keyword">import</span> xgboost <span class="keyword">as</span> xgb
+
+<span class="comment"># Transforming data into insights</span>
+model = xgb.XGBRegressor()
+model.fit(X_train, y_train)
+
+<span class="function">print</span>(<span class="string">"Ready to predict the future!"</span>)</code></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>About <span class="highlight">Me</span></h2>
+                <div class="underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text reveal left">
+                    <p>My journey didn't start with models and algorithms; it started with solving real-world IT problems. As a <strong>Senior Service Desk Analyst</strong>, I honed my analytical skills, developed a deep understanding of enterprise systems, and mastered the art of translating technical issues for business stakeholders.</p>
+                    <p>Now, driven by a passion for uncovering patterns in complex data, I am completing my <strong>MSc</strong> and pivoting into <strong>Data Science</strong>. My unique background allows me to not only build robust machine learning pipelines but also understand the operational impact of those models in a production environment.</p>
+                    <div class="skills">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Machine Learning</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">Data Visualization</span>
+                        <span class="skill-tag">Problem Solving</span>
+                        <span class="skill-tag">IT Operations</span>
+                    </div>
+                </div>
+                <div class="about-stats reveal right">
+                    <div class="stat-box glass-card">
+                        <h3>5+</h3>
+                        <p>Years in IT Operations</p>
+                    </div>
+                    <div class="stat-box glass-card">
+                        <h3>MSc</h3>
+                        <p>Data Science Candidate</p>
+                    </div>
+                    <div class="stat-box glass-card">
+                        <h3>100%</h3>
+                        <p>Focus on Actionable Insights</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Featured <span class="highlight">Projects</span></h2>
+                <div class="underline"></div>
+            </div>
+            <div class="project-grid">
+                <!-- Project 1 -->
+                <div class="project-card glass-card reveal up">
+                    <div class="project-img-placeholder">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Predictive Maintenance Model</h3>
+                        <p>Leveraged operational logs and machine data to forecast hardware failures before they occur, reducing downtime by 25%.</p>
+                        <div class="project-tech">
+                            <span>Scikit-learn</span>
+                            <span>Pandas</span>
+                            <span>FastAPI</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn-small"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" class="btn-small btn-outline"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="project-card glass-card reveal up" style="transition-delay: 0.1s;">
+                    <div class="project-img-placeholder">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Service Ticket NLP Classifier</h3>
+                        <p>An automated pipeline that reads incoming IT service desk tickets, categorizes them, and assigns severity scores using NLP.</p>
+                        <div class="project-tech">
+                            <span>Transformers</span>
+                            <span>PyTorch</span>
+                            <span>Docker</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn-small"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="project-card glass-card reveal up" style="transition-delay: 0.2s;">
+                    <div class="project-img-placeholder">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Commodity Forecasting Pipeline</h3>
+                        <p>End-to-end MLOps pipeline for forecasting commodity prices using XGBoost, integrated with MLflow and DagsHub.</p>
+                        <div class="project-tech">
+                            <span>XGBoost</span>
+                            <span>MLflow</span>
+                            <span>Streamlit</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn-small"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Get in <span class="highlight">Touch</span></h2>
+                <div class="underline"></div>
+            </div>
+            <div class="contact-wrapper">
+                <div class="contact-info glass-card reveal left">
+                    <h3>Let's Connect</h3>
+                    <p>Whether you're looking to discuss data science, machine learning, or how my IT background can add value to your team, my inbox is open!</p>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>hello@example.com</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Available Worldwide (Remote)</span>
+                    </div>
+                </div>
+                <form class="contact-form glass-card reveal right">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Send Message <i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2026 Data Science Portfolio. Designed with <i class="fas fa-heart"></i> & code.</p>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
