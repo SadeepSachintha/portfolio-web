@@ -18,6 +18,7 @@ I am an AWS Certified Cloud Practitioner and an MSc Data Science student at King
 - **Automated Commodity Price Forecasting:** End-to-end MLOps pipeline for Sri Lankan retail markets with automated CBSL ingestion and drift detection.
 - **CSE-Predictor 1.0:** Hybrid stock market prediction pipeline for the Colombo Stock Exchange using LSTM and interactive TradingView charts.
 - **Real-Time Dividend Tracker:** High-performance monitor for CSE announcements using a Producer-Consumer architecture and WebSockets.
+- **HMS 2.0 (Hotel Management System):** Comprehensive hotel management platform with real-time booking, RBAC, and automated reporting built with Laravel 12.
 - **Crypto Data Engineering Pipeline:** Star schema data warehouse for analytical queries, powered by CoinGecko API and PostgreSQL.
 
 ## 🎓 Education
