@@ -8,16 +8,17 @@ Welcome to my professional portfolio! I am a Data Scientist transitioning from a
 I am an AWS Certified Cloud Practitioner and an MSc Data Science student at Kingston University London. With a strong foundation as a Senior Service Desk Analyst, I bring a unique perspective to data science—focusing not just on building models, but on their operational reliability and business impact.
 
 ## 🛠️ Technology Stack
-- **Languages:** Python, SQL, Shell Scripting (Bash)
-- **Data Science:** Scikit-learn, XGBoost, Pandas, NumPy, NLP (Transformers, PyTorch)
-- **Cloud & DevOps:** AWS (Cloud Practitioner), Docker, CI/CD Pipelines
-- **Tools:** MLflow, DagsHub, FastAPI, Streamlit, MongoDB
+- **Languages:** Python, PHP (Laravel 12), SQL, Shell Scripting (Bash)
+- **Data Science:** XGBoost, LSTM, Random Forest, Scikit-learn, Pandas, NLP
+- **Cloud & DevOps:** AWS (Cloud Practitioner), Docker, CI/CD (GitHub Actions), GHCR, Tailscale
+- **Tools:** MLflow, DagsHub, Redis, MySQL, PostgreSQL, FastAPI, Streamlit, TradingView Charts
 - **Frameworks:** ITIL / ITSM (Service Desk Operations)
 
 ## 📂 Featured Projects
-- **Predictive Maintenance Model:** Forecasting hardware failures to reduce downtime.
-- **Service Ticket NLP Classifier:** Automated categorization and severity scoring for IT tickets.
-- **Commodity Forecasting Pipeline:** End-to-end MLOps pipeline with MLflow and DagsHub integration.
+- **Automated Commodity Price Forecasting:** End-to-end MLOps pipeline for Sri Lankan retail markets with automated CBSL ingestion and drift detection.
+- **CSE-Predictor 1.0:** Hybrid stock market prediction pipeline for the Colombo Stock Exchange using LSTM and interactive TradingView charts.
+- **Real-Time Dividend Tracker:** High-performance monitor for CSE announcements using a Producer-Consumer architecture and WebSockets.
+- **Crypto Data Engineering Pipeline:** Star schema data warehouse for analytical queries, powered by CoinGecko API and PostgreSQL.
 
 ## 🎓 Education
 - **MSc Data Science** - Kingston University London
@@ -29,4 +30,5 @@ I am an AWS Certified Cloud Practitioner and an MSc Data Science student at King
 - **GitHub:** [@SadeepSachintha](https://github.com/SadeepSachintha)
 
 ---
+*Last Updated: May 2026*
 *Created with ❤️ by Sadeep Sachintha*
