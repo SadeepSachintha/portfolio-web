@@ -9,12 +9,15 @@ I am an AWS Certified Cloud Practitioner and an MSc Data Science student at King
 
 ## 🛠️ Technology Stack
 - **Languages:** Python, PHP (Laravel 12), SQL, Shell Scripting (Bash)
+- **Data Engineering:** Apache Kafka, Apache Spark, Apache Airflow, MinIO (S3), Star Schema Modeling
 - **Data Science:** XGBoost, LSTM, Random Forest, Scikit-learn, Pandas, NLP
 - **Cloud & DevOps:** AWS (Cloud Practitioner), Docker, CI/CD (GitHub Actions), GHCR, Tailscale
-- **Tools:** MLflow, DagsHub, Redis, MySQL, PostgreSQL, FastAPI, Streamlit, TradingView Charts
+- **Tools:** MLflow, DagsHub, Redis, MySQL, PostgreSQL, Grafana, FastAPI, TradingView Charts
 - **Frameworks:** ITIL / ITSM (Service Desk Operations)
 
 ## 📂 Featured Projects
+- **Real-Time Analytics System for SL Market:** High-performance streaming data pipeline processing market prices in real-time using Kafka and Spark.
+- **Sri Lankan Open Data ETL (DataOps):** Enterprise ETL architecture implementing a Hybrid Data Lakehouse (Bronze/Silver/Gold) for weather and market data.
 - **Automated Commodity Price Forecasting:** End-to-end MLOps pipeline for Sri Lankan retail markets with automated CBSL ingestion and drift detection.
 - **CSE-Predictor 1.0:** Hybrid stock market prediction pipeline for the Colombo Stock Exchange using LSTM and interactive TradingView charts.
 - **Real-Time Dividend Tracker:** High-performance monitor for CSE announcements using a Producer-Consumer architecture and WebSockets.
