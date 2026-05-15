@@ -16,6 +16,7 @@ I am an AWS Certified Cloud Practitioner and an MSc Data Science student at King
 - **Frameworks:** ITIL / ITSM (Service Desk Operations)
 
 ## 📂 Featured Projects
+- **ML System Observability:** Production-ready ML observability system with FastAPI serving layer, Prometheus metrics for data drift detection, and Grafana for real-time visualization.
 - **Automated ML Deployment System:** Production-grade MLOps pipeline automating the lifecycle from training to containerized deployment on Hugging Face Spaces.
 - **Real-Time Analytics System for SL Market:** High-performance streaming data pipeline processing market prices in real-time using Kafka and Spark.
 - **Sri Lankan Open Data ETL (DataOps):** Enterprise ETL architecture implementing a Hybrid Data Lakehouse (Bronze/Silver/Gold) for weather and market data.
