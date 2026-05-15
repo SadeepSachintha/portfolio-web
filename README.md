@@ -16,6 +16,7 @@ I am an AWS Certified Cloud Practitioner and an MSc Data Science student at King
 - **Frameworks:** ITIL / ITSM (Service Desk Operations)
 
 ## 📂 Featured Projects
+- **Automated ML Deployment System:** Production-grade MLOps pipeline automating the lifecycle from training to containerized deployment on Hugging Face Spaces.
 - **Real-Time Analytics System for SL Market:** High-performance streaming data pipeline processing market prices in real-time using Kafka and Spark.
 - **Sri Lankan Open Data ETL (DataOps):** Enterprise ETL architecture implementing a Hybrid Data Lakehouse (Bronze/Silver/Gold) for weather and market data.
 - **Automated Commodity Price Forecasting:** End-to-end MLOps pipeline for Sri Lankan retail markets with automated CBSL ingestion and drift detection.
@@ -23,6 +24,8 @@ I am an AWS Certified Cloud Practitioner and an MSc Data Science student at King
 - **Real-Time Dividend Tracker:** High-performance monitor for CSE announcements using a Producer-Consumer architecture and WebSockets.
 - **HMS 2.0 (Hotel Management System):** Comprehensive hotel management platform with real-time booking, RBAC, and automated reporting built with Laravel 12.
 - **Crypto Data Engineering Pipeline:** Star schema data warehouse for analytical queries, powered by CoinGecko API and PostgreSQL.
+- **SL Government Exam Tracker Bot:** Automated Telegram bot monitoring exam notices with a premium monitoring dashboard.
+- **BIT Announcement Tracker:** Multi-source scraping system for BIT UCSC announcements with instant notifications.
 
 ## 🎓 Education
 - **MSc Data Science** - Kingston University London
@@ -34,5 +37,5 @@ I am an AWS Certified Cloud Practitioner and an MSc Data Science student at King
 - **GitHub:** [@SadeepSachintha](https://github.com/SadeepSachintha)
 
 ---
-*Last Updated: May 2026*
+*Last Updated: May 15, 2026*
 *Created with ❤️ by Sadeep Sachintha*
