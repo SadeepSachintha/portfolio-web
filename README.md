@@ -5,14 +5,15 @@ Welcome to my professional portfolio! I am a Data Scientist transitioning from a
 🚀 **[View Live Portfolio](https://sadeepsachintha.github.io/portfolio-web/)**
 
 ## 👤 About Me
-I am an AWS Certified Cloud Practitioner and an MSc Data Science student at Kingston University London. With a strong foundation as a Senior Service Desk Analyst, I bring a unique perspective to data science—focusing not just on building models, but on their operational reliability and business impact.
+I am an **MSc Data Science** student at Kingston University London and an **AWS Certified Cloud Practitioner** with a background as a Senior Service Desk Analyst. I specialize in the intersection of **MLOps, NLP, and Data Engineering**, focusing on building reliable, observable, and automated production systems that bridge the gap between IT operations and high-performance machine learning.
 
 ## 🛠️ Technology Stack
-- **Languages:** Python, PHP (Laravel 12), SQL, Shell Scripting (Bash)
+- **MLOps & DevOps:** Docker, CI/CD (GitHub Actions), Prometheus, Grafana, MLflow, DagsHub, GHCR
+- **Natural Language Processing:** Transformers, Hugging Face, Native Sinhala NLP
+- **Data Science:** Python, XGBoost, LSTM, Random Forest, Scikit-learn, Pandas
 - **Data Engineering:** Apache Kafka, Apache Spark, Apache Airflow, MinIO (S3), Star Schema Modeling
-- **Data Science:** XGBoost, LSTM, Random Forest, Scikit-learn, Pandas, NLP
-- **Cloud & DevOps:** AWS (Cloud Practitioner), Docker, CI/CD (GitHub Actions), GHCR, Tailscale
-- **Tools:** MLflow, DagsHub, Redis, MySQL, PostgreSQL, Grafana, FastAPI, TradingView Charts
+- **Backend & Web:** PHP (Laravel 12), FastAPI, Flask, SQL (PostgreSQL, MySQL), MongoDB, Redis
+- **Cloud & Infrastructure:** AWS (Certified Cloud Practitioner), Linux (Bash), Tailscale
 - **Frameworks:** ITIL / ITSM (Service Desk Operations)
 
 ## 📂 Featured Projects
