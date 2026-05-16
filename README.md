@@ -16,6 +16,7 @@ I am an AWS Certified Cloud Practitioner and an MSc Data Science student at King
 - **Frameworks:** ITIL / ITSM (Service Desk Operations)
 
 ## 📂 Featured Projects
+- **Sinhala Sentiment Analysis API:** Production-ready NLP system featuring a fine-tuned transformer model for Sinhala text, modern glassmorphism UI, and automated CI/CD to Hugging Face.
 - **ML System Observability:** Production-ready ML observability system with FastAPI serving layer, Prometheus metrics for data drift detection, and Grafana for real-time visualization.
 - **Automated ML Deployment System:** Production-grade MLOps pipeline automating the lifecycle from training to containerized deployment on Hugging Face Spaces.
 - **Real-Time Analytics System for SL Market:** High-performance streaming data pipeline processing market prices in real-time using Kafka and Spark.
@@ -38,5 +39,5 @@ I am an AWS Certified Cloud Practitioner and an MSc Data Science student at King
 - **GitHub:** [@SadeepSachintha](https://github.com/SadeepSachintha)
 
 ---
-*Last Updated: May 15, 2026*
+*Last Updated: May 16, 2026*
 *Created with ❤️ by Sadeep Sachintha*
