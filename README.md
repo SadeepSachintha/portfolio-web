@@ -30,6 +30,9 @@ I am an **MSc Data Science** student at Kingston University London and an **AWS 
 - **Crypto Data Engineering Pipeline:** Star schema data warehouse for analytical queries, powered by CoinGecko API and PostgreSQL.
 - **SL Government Exam Tracker Bot:** Automated Telegram bot monitoring exam notices with a premium monitoring dashboard.
 - **BIT Announcement Tracker:** Multi-source scraping system for BIT UCSC announcements with instant notifications.
+- **Antigravity Agentic Studio:** A cooperative agent workspace where 4 specialized Google Antigravity AI agents collaborate sequentially and in refinement loops with real-time thought streaming, markdown parsing, and interactive custom instruction tuning.
+- **Proactive System Sentinel:** A command-line and system-level automation agent daemon that runs in the background to monitor, analyze, and assist with files and system resources using Google Antigravity SDK and Gemini's multimodal reasoning.
+- **Salon Colombia Pvt Ltd:** A gold and charcoal themed luxury salon web platform featuring a client-side appointment database (LocalStorage), real-time opening hours status, custom outage resilience notice, and Leaflet.js mapping.
 
 ## 🎓 Education
 - **MSc Data Science** - Kingston University London
