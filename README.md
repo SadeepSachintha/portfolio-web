@@ -19,6 +19,7 @@ I am an **MSc Data Science** student at Kingston University London and an **AWS 
 ## 📂 Featured Projects
 - **[Sinhala Sentiment Analysis API](https://github.com/SadeepSachintha/NLP-Model-Deployment):** Production-ready NLP system featuring a fine-tuned transformer model for Sinhala text, modern glassmorphism UI, and automated CI/CD to Hugging Face.
 - **[FlyRates (Telegram Exchange Rate Bot)](https://github.com/SadeepSachintha/FlyRates):** A high-availability Telegram bot and premium glassmorphic dashboard for real-time Sri Lankan Rupee (LKR) exchange rate tracking, automated daily broadcasts, and interactive weekly trend charts with a 100% key-less web-scraping FX architecture.
+- **[CSE Investment Advisor](https://github.com/SadeepSachintha/CSE-Investment-Advisor):** A premium client-side Single Page Application (SPA) featuring real-time index tracking, simulated portfolio tracker with sector-diversification charts, statutory fee drag calculator, and the Ariya AI Advisor—an interactive terminal-style chatbot for stock analysis and risk scanning.
 - **[ML System Observability](https://github.com/SadeepSachintha/Monitoring-Observability-for-ML-Systems):** Production-ready ML observability system with FastAPI serving layer, Prometheus metrics for data drift detection, and Grafana for real-time visualization.
 - **[Automated ML Deployment System](https://github.com/SadeepSachintha/Automated-ML-Deployment-System):** Production-grade MLOps pipeline automating the lifecycle from training to containerized deployment on Hugging Face Spaces.
 - **[Real-Time Analytics System for SL Market](https://github.com/SadeepSachintha/Real-Time-Analytics-System):** High-performance streaming data pipeline processing market prices in real-time using Kafka and Spark.
@@ -44,5 +45,5 @@ I am an **MSc Data Science** student at Kingston University London and an **AWS 
 - **GitHub:** [@SadeepSachintha](https://github.com/SadeepSachintha)
 
 ---
-*Last Updated: May 18, 2026*
+*Last Updated: May 28, 2026*
 *Created with ❤️ by Sadeep Sachintha*
