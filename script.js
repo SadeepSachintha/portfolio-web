@@ -58,6 +58,58 @@ document.addEventListener('DOMContentLoaded', () => {
         revealObserver.observe(el);
     });
     
+    // Projects Filtering and Search Logic
+    const filterButtons = document.querySelectorAll('.filter-btn');
+    const searchInput = document.getElementById('project-search');
+    const projectCards = document.querySelectorAll('.project-card');
+
+    let activeFilter = 'all';
+    let searchQuery = '';
+
+    function filterProjects() {
+        projectCards.forEach((card) => {
+            const cardCategory = card.getAttribute('data-category');
+            const cardTitle = card.querySelector('h3').textContent.toLowerCase();
+            const cardDesc = card.querySelector('p').textContent.toLowerCase();
+            const techTags = Array.from(card.querySelectorAll('.project-tech span'))
+                .map(tag => tag.textContent.toLowerCase());
+            
+            const matchesCategory = activeFilter === 'all' || cardCategory === activeFilter;
+            const matchesSearch = searchQuery === '' || 
+                cardTitle.includes(searchQuery) || 
+                cardDesc.includes(searchQuery) ||
+                techTags.some(tag => tag.includes(searchQuery));
+
+            if (matchesCategory && matchesSearch) {
+                card.classList.remove('hide');
+                // Ensure card is active/visible if already scrolled past
+                setTimeout(() => {
+                    card.classList.add('active');
+                }, 50);
+            } else {
+                card.classList.add('hide');
+            }
+        });
+    }
+
+    if (filterButtons.length > 0) {
+        filterButtons.forEach(btn => {
+            btn.addEventListener('click', () => {
+                filterButtons.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                activeFilter = btn.getAttribute('data-filter');
+                filterProjects();
+            });
+        });
+    }
+
+    if (searchInput) {
+        searchInput.addEventListener('input', (e) => {
+            searchQuery = e.target.value.toLowerCase().trim();
+            filterProjects();
+        });
+    }
+
     // Form submission handling (prevent default for demo)
     const contactForm = document.querySelector('.contact-form');
     if (contactForm) {
