@@ -36,6 +36,7 @@ I am an **MSc Data Science** student at Kingston University London and an **AWS 
 - **[Proactive System Sentinel](https://github.com/SadeepSachintha/Proactive-System-Sentinel):** A command-line and system-level automation agent daemon that runs in the background to monitor, analyze, and assist with files and system resources using Google Antigravity SDK and Gemini's multimodal reasoning.
 - **[Salon Colombia Pvt Ltd](https://github.com/SadeepSachintha/Salon-Colombia):** A gold and charcoal themed luxury salon web platform featuring a client-side appointment database (LocalStorage), real-time opening hours status, custom outage resilience notice, and Leaflet.js mapping.
 - **[Zeylan (Premium DTF T-Shirt Customizer)](https://github.com/SadeepSachintha/Zeylan):** An interactive web application for custom Direct to Film (DTF) T-shirt printing. Features a live visual canvas mockup customizer, real-time pricing calculator with volume-based discount tiers, and seamless WhatsApp order checkout.
+- **[LankaTransit Hub (Sri Lankan Train & Bus Schedules)](https://github.com/SadeepSachintha/Sri-Lankan-Transportation-Hub):** A premium, visually stunning, and highly interactive web dashboard to check real-time train and bus schedules, track vehicles on a live map, calculate fares, and reserve seats. Features a LocalStorage-backed Recent Searches history tracker, interactive station amenities/facility markers, a route-tracing timeline solver, and multi-language support.
 
 
 ## 🎓 Education
@@ -48,5 +49,5 @@ I am an **MSc Data Science** student at Kingston University London and an **AWS 
 - **GitHub:** [@SadeepSachintha](https://github.com/SadeepSachintha)
 
 ---
-*Last Updated: May 29, 2026*
+*Last Updated: June 13, 2026*
 *Created with ❤️ by Sadeep Sachintha*
