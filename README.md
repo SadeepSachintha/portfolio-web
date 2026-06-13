@@ -35,6 +35,8 @@ I am an **MSc Data Science** student at Kingston University London and an **AWS 
 - **[Antigravity Agentic Studio](https://github.com/SadeepSachintha/antigravity-agentic-studio):** A cooperative agent workspace where 4 specialized Google Antigravity AI agents collaborate sequentially and in refinement loops with real-time thought streaming, markdown parsing, and interactive custom instruction tuning.
 - **[Proactive System Sentinel](https://github.com/SadeepSachintha/Proactive-System-Sentinel):** A command-line and system-level automation agent daemon that runs in the background to monitor, analyze, and assist with files and system resources using Google Antigravity SDK and Gemini's multimodal reasoning.
 - **[Salon Colombia Pvt Ltd](https://github.com/SadeepSachintha/Salon-Colombia):** A gold and charcoal themed luxury salon web platform featuring a client-side appointment database (LocalStorage), real-time opening hours status, custom outage resilience notice, and Leaflet.js mapping.
+- **[Zeylan (Premium DTF T-Shirt Customizer)](https://github.com/SadeepSachintha/Zeylan):** An interactive web application for custom Direct to Film (DTF) T-shirt printing. Features a live visual canvas mockup customizer, real-time pricing calculator with volume-based discount tiers, and seamless WhatsApp order checkout.
+
 
 ## 🎓 Education
 - **MSc Data Science** - Kingston University London
