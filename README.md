@@ -38,6 +38,7 @@ I am an **MSc Data Science** student at Kingston University London and an **AWS 
 - **[Zeylan (Premium DTF T-Shirt Customizer)](https://github.com/SadeepSachintha/Zeylan):** An interactive web application for custom Direct to Film (DTF) T-shirt printing. Features a live visual canvas mockup customizer, real-time pricing calculator with volume-based discount tiers, and seamless WhatsApp order checkout.
 - **[LankaTransit Hub (Sri Lankan Train & Bus Schedules)](https://github.com/SadeepSachintha/Sri-Lankan-Transportation-Hub):** A premium, visually stunning, and highly interactive web dashboard to check real-time train and bus schedules, track vehicles on a live map, calculate fares, and reserve seats. Features a LocalStorage-backed ticket wallet and Recent Searches history, Supabase database backend with RLS and secure RPC functions, real-time route status synchronization, a multi-language operator dashboard with Chart.js analytics, and weather hazard overlay layers.
 - **[SS Labz (Custom Software & Web Agency)](https://github.com/SadeepSachintha/SS-Labz):** The official business website for SS Labz. Built with a premium, high-performance, dark-theme tech aesthetic. Features an interactive 3D-flipping digital business card, dynamic vCard contact exporter, a custom HTML5 canvas social media image exporter, and an automated Web3Forms API-integrated contact system.
+- **[Ceylon Tourism (Sri Lanka Directory & Booking App)](https://github.com/SadeepSachintha/Ceylon-Tourism):** A premium, highly interactive, and visually stunning Single-Page Application (SPA) designed to showcase the majestic wonders of Sri Lanka and facilitate luxury hotel reservations. Features filterable attraction & hotel catalogs, a dynamic multi-step booking wizard with real-time price calculators, interactive credit card checkout, a digital ticket wallet with printable Ceylon Pass boarding tickets, and Netlify Forms integration.
 
 
 ## 🎓 Education
@@ -50,5 +51,5 @@ I am an **MSc Data Science** student at Kingston University London and an **AWS 
 - **GitHub:** [@SadeepSachintha](https://github.com/SadeepSachintha)
 
 ---
-*Last Updated: June 14, 2026*
+*Last Updated: June 15, 2026*
 *Created with ❤️ by Sadeep Sachintha*
