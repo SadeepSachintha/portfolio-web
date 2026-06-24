@@ -18,7 +18,7 @@ I am an **MSc Data Science** student at Kingston University London and an **AWS 
 - **Frameworks:** ITIL / ITSM (Service Desk Operations)
 
 ## 📂 Featured Projects
-- **[Institute Management System (IMS)](https://github.com/SadeepSachintha/Institute-Management-System):** A comprehensive, cloud-based platform designed as the central digital nervous system of an educational institution. Features student onboarding state machines, automated course scheduling conflict checkers, dynamic fee invoicing with a simulated payment sandbox, and a FastAPI-powered early warning system using scikit-learn to forecast student risks.
+- **[Institute Management System (IMS)](https://github.com/SadeepSachintha/Institute-Management-System):** A comprehensive cloud-based platform and native desktop application (packaged via NativePHP & Electron) designed as the central digital nervous system of an educational institution. Features student onboarding state machines, automated course scheduling conflict checkers, dynamic fee invoicing with a simulated payment sandbox, a FastAPI-powered risk forecasting engine, and automated Windows installer builds via GitHub Actions.
 - **[Sinhala Sentiment Analysis API](https://github.com/SadeepSachintha/NLP-Model-Deployment):** Production-ready NLP system featuring a fine-tuned transformer model for Sinhala text, modern glassmorphism UI, and automated CI/CD to Hugging Face.
 - **[Ceylon Gold Rate (Live Gold Price Tracker)](https://github.com/SadeepSachintha/Ceylon-Gold-Rate):** A premium, responsive, real-time web application to track 22K, 24K, 21K, and 18K gold prices in Sri Lanka. It features a server-side web-scraping cURL API, 4-hour caching layer, interactive historical trend charts, persistent dark theme toggles, and an intelligent jewelry cost calculator.
 - **[FlyRates (Telegram Exchange Rate Bot)](https://github.com/SadeepSachintha/FlyRates):** A high-availability Telegram bot and premium glassmorphic dashboard for real-time Sri Lankan Rupee (LKR) exchange rate tracking, automated daily broadcasts, and interactive weekly trend charts with a 100% key-less web-scraping FX architecture.
@@ -54,5 +54,5 @@ I am an **MSc Data Science** student at Kingston University London and an **AWS 
 - **GitHub:** [@SadeepSachintha](https://github.com/SadeepSachintha)
 
 ---
-*Last Updated: June 15, 2026*
+*Last Updated: June 24, 2026*
 *Created with ❤️ by Sadeep Sachintha*
