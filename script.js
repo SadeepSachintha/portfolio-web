@@ -48,8 +48,8 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     const revealOptions = {
-        threshold: 0.15,
-        rootMargin: "0px 0px -50px 0px"
+        threshold: 0.05,
+        rootMargin: "0px 0px -20px 0px"
     };
 
     const revealObserver = new IntersectionObserver(revealCallback, revealOptions);
@@ -67,6 +67,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let searchQuery = '';
 
     function filterProjects() {
+        let visibleIndex = 0;
         projectCards.forEach((card) => {
             const cardCategory = card.getAttribute('data-category');
             const cardTitle = card.querySelector('h3').textContent.toLowerCase();
@@ -82,12 +83,19 @@ document.addEventListener('DOMContentLoaded', () => {
 
             if (matchesCategory && matchesSearch) {
                 card.classList.remove('hide');
+                
+                // Stagger delay dynamically based only on visible cards (max 0.2s stagger)
+                const delay = (visibleIndex % 3) * 0.1;
+                card.style.transitionDelay = `${delay}s`;
+                visibleIndex++;
+
                 // Ensure card is active/visible if already scrolled past
                 setTimeout(() => {
                     card.classList.add('active');
                 }, 50);
             } else {
                 card.classList.add('hide');
+                card.style.transitionDelay = '0s';
             }
         });
     }
@@ -109,6 +117,9 @@ document.addEventListener('DOMContentLoaded', () => {
             filterProjects();
         });
     }
+
+    // Run filterProjects once initially to strip hardcoded inline delays and apply snappy stagger
+    filterProjects();
 
     // Form submission handling (prevent default for demo)
     const contactForm = document.querySelector('.contact-form');
