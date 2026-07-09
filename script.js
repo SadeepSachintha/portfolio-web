@@ -75,7 +75,8 @@ document.addEventListener('DOMContentLoaded', () => {
             const techTags = Array.from(card.querySelectorAll('.project-tech span'))
                 .map(tag => tag.textContent.toLowerCase());
             
-            const matchesCategory = activeFilter === 'all' || cardCategory === activeFilter;
+            const matchesCategory = activeFilter === 'all' || 
+                (cardCategory && cardCategory.split(' ').includes(activeFilter));
             const matchesSearch = searchQuery === '' || 
                 cardTitle.includes(searchQuery) || 
                 cardDesc.includes(searchQuery) ||

@@ -18,6 +18,8 @@ I am an **MSc Data Science** student at Kingston University London and an **AWS 
 - **Frameworks:** ITIL / ITSM (Service Desk Operations)
 
 ## 📂 Featured Projects
+- **[StockSense AI (Predictive Demand Forecasting & Inventory SaaS)](https://github.com/SadeepSachintha/StockSense-AI):** A premium multi-tenant predictive inventory SaaS designed to optimize working capital and minimize stockouts. Combines a Laravel 12 multi-tenant core (Neon + TimescaleDB partitioned hypertables) with a Python FastAPI forecasting engine (LightGBM on Render). Features automated Apache Airflow ETL ingestion pipelines, data quality checks via Great Expectations, MLflow tracking, and live drift observability logs.
+- **[EasyQ (Multi-Tenant Real-Time Queue & Booking SaaS)](https://github.com/SadeepSachintha/EasyQ):** A high-performance enterprise SaaS platform designed for service-based businesses to transition to digital queue systems. Features multi-database tenant isolation, dynamic subdomain routing, real-time WebSocket syncing via Laravel Reverb, and smart wait-time calculations. Includes a Lobby TV digital signage page with speech synthesis alerts and a cross-platform desktop wrapper built using NativePHP (Electron) with automated GitHub release workflows.
 - **[Institute Management System (IMS)](https://github.com/SadeepSachintha/Institute-Management-System):** A comprehensive cloud-based platform and native desktop application (packaged via NativePHP & Electron) designed as the central digital nervous system of an educational institution. Features student onboarding state machines, automated course scheduling conflict checkers, dynamic fee invoicing with a simulated payment sandbox, a FastAPI-powered risk forecasting engine, and automated Windows installer builds via GitHub Actions.
 - **[Sinhala Sentiment Analysis API](https://github.com/SadeepSachintha/NLP-Model-Deployment):** Production-ready NLP system featuring a fine-tuned transformer model for Sinhala text, modern glassmorphism UI, and automated CI/CD to Hugging Face.
 - **[Ceylon Gold Rate (Live Gold Price Tracker)](https://github.com/SadeepSachintha/Ceylon-Gold-Rate):** A premium, responsive, real-time web application to track 22K, 24K, 21K, and 18K gold prices in Sri Lanka. It features a server-side web-scraping cURL API, 4-hour caching layer, interactive historical trend charts, persistent dark theme toggles, and an intelligent jewelry cost calculator.
@@ -54,5 +56,5 @@ I am an **MSc Data Science** student at Kingston University London and an **AWS 
 - **GitHub:** [@SadeepSachintha](https://github.com/SadeepSachintha)
 
 ---
-*Last Updated: June 28, 2026*
+*Last Updated: July 9, 2026*
 *Created with ❤️ by Sadeep Sachintha*
