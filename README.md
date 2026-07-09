@@ -11,9 +11,9 @@ I am an **MSc Data Science** student at Kingston University London and an **AWS 
 - **MLOps & DevOps:** Docker, CI/CD (GitHub Actions), Prometheus, Grafana, MLflow, DagsHub, GHCR
 - **Natural Language Processing:** Transformers, Hugging Face, Native Sinhala NLP
 - **Mobile Development:** Flutter, Dart
-- **Data Science:** Python, XGBoost, LSTM, Random Forest, Scikit-learn, Pandas
+- **Data Science:** Python, LightGBM, XGBoost, LSTM, Random Forest, Scikit-learn, Pandas, Optuna
 - **Data Engineering:** Apache Kafka, Apache Spark, Apache Airflow, MinIO (S3), Star Schema Modeling
-- **Backend & Web:** PHP (Laravel 12), FastAPI, Flask, SQL (PostgreSQL, MySQL), MongoDB, Redis
+- **Backend & Web:** PHP (Laravel 12), FastAPI, Flask, SQL (PostgreSQL, TimescaleDB, MySQL), MongoDB, Redis, NativePHP & Electron
 - **Cloud & Infrastructure:** AWS (Certified Cloud Practitioner), Linux (Bash), Tailscale
 - **Frameworks:** ITIL / ITSM (Service Desk Operations)
 
