@@ -161,18 +161,19 @@ model.fit(X_train, y_train)
                     <img src="assets/stocksense_dashboard.png" alt="StockSense AI Dashboard" class="project-img">
                     <div class="project-info">
                         <h3>StockSense AI - Predictive Demand Forecasting & Inventory SaaS</h3>
-                        <p>A premium multi-tenant predictive inventory SaaS designed to optimize working capital and minimize stockouts. Combines a Laravel 12 multi-tenant core (Neon + TimescaleDB partitioned hypertables) with a Python FastAPI forecasting engine (LightGBM on Render). Features automated Apache Airflow ETL ingestion pipelines, data quality checks via Great Expectations, MLflow tracking, and live drift observability logs.</p>
+                        <p>A premium multi-tenant predictive inventory SaaS designed to optimize working capital and minimize stockouts. Combines a Laravel 12 multi-tenant core (Neon + TimescaleDB partitioned hypertables) with a Python FastAPI forecasting engine (LightGBM, Prophet, and LSTM on Render). Features automated Apache Airflow ETL ingestion pipelines, Great Expectations checks, MLflow tracking, and automatic drift autorecovery. Includes offline-resilient POS caching with Web Audio feedback, keyboard-navigable SKU autocomplete suggestions, and a secure `/saas-admin` registry panel.</p>
                         <div class="project-tech">
                             <span>Laravel 12</span>
                             <span>Vue 3</span>
                             <span>FastAPI</span>
                             <span>Python</span>
                             <span>LightGBM</span>
+                            <span>Prophet & LSTM</span>
                             <span>Apache Airflow</span>
                             <span>PostgreSQL</span>
                             <span>TimescaleDB</span>
                             <span>MinIO (S3)</span>
-                            <span>Redis</span>
+                            <span>Chart.js & Web Audio</span>
                             <span>Docker</span>
                             <span>Neon & Render</span>
                         </div>
