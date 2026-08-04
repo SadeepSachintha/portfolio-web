@@ -1,11 +1,11 @@
-# Sadeep Sachintha | Data Science Portfolio
+# Sadeep Sachintha | Data Science & Full-Stack Portfolio
 
-Welcome to my professional portfolio! I am a Data Scientist transitioning from a Senior IT Operations background, specializing in bridging the gap between infrastructure and predictive analytics.
+Welcome to my professional portfolio! I am a Data Scientist and Full-Stack Developer bridging the gap between high-performance machine learning, distributed data engineering, and production-grade full-stack software systems.
 
 🚀 **[View Live Portfolio](https://sadeepsachintha.github.io/portfolio-web/)**
 
 ## 👤 About Me
-I am an **MSc Data Science** student at Kingston University London and an **AWS Certified Cloud Practitioner** with a background as a Senior Service Desk Analyst. I specialize in the intersection of **MLOps, NLP, and Data Engineering**, focusing on building reliable, observable, and automated production systems that bridge the gap between IT operations and high-performance machine learning.
+I am an **MSc Data Science** student at Kingston University London and an **AWS Certified Cloud Practitioner** with a background as a Senior Service Desk Analyst. I specialize in the intersection of **MLOps, NLP, Data Engineering, and Full-Stack Web Development**, focusing on building reliable, observable, and automated production systems that bridge the gap between high-performance machine learning and operational excellence.
 
 ## 🛠️ Technology Stack
 - **MLOps & DevOps:** Docker, CI/CD (GitHub Actions), Prometheus, Grafana, MLflow, DagsHub, GHCR
@@ -13,12 +13,12 @@ I am an **MSc Data Science** student at Kingston University London and an **AWS 
 - **Mobile Development:** Flutter, Dart
 - **Data Science:** Python, LightGBM, XGBoost, LSTM, Random Forest, Scikit-learn, Pandas, Optuna
 - **Data Engineering:** Apache Kafka, Apache Spark, Apache Airflow, MinIO (S3), Star Schema Modeling
-- **Backend & Web:** PHP (Laravel 12), FastAPI, Flask, SQL (PostgreSQL, TimescaleDB, MySQL), MongoDB, Redis, NativePHP & Electron
+- **Frontend, Backend & Web:** React 19, TypeScript, Tailwind CSS, PHP (Laravel 12), FastAPI, Flask, SQL (PostgreSQL, TimescaleDB, MySQL), WebSockets (Socket.io & Reverb), MongoDB, Redis, NativePHP & Electron
 - **Cloud & Infrastructure:** AWS (Certified Cloud Practitioner), Linux (Bash), Tailscale
 - **Frameworks:** ITIL / ITSM (Service Desk Operations)
 
 ## 📂 Featured Projects
-- **[Aura MCMS (Standalone Turnkey Clinical & EMR Solution)](https://github.com/SadeepSachintha/Medical-Center-Management-System):** A high-performance, responsive, and completely offline-ready clinical management system designed for outpatient clinics and polyclinics. Operates as a single-tenant standalone deployment to ensure zero-latency queue voice announcements (Web Speech API) and complete data isolation. Features a multi-role dashboard (Admin, Doctor, Receptionist, Pharmacist), keyboard-wedge barcode scanner interception for pharmacy sales, 80mm thermal receipt printing support, and local database backup integration.
+- **[Aura MCMS (Standalone Turnkey Clinical & EMR Solution)](https://github.com/SadeepSachintha/Medical-Center-Management-System):** A high-performance, responsive, and completely offline-ready clinical management system designed for outpatient clinics and polyclinics. Operates as a single-tenant standalone deployment to ensure zero-latency queue voice announcements (Web Speech API) and complete data isolation. Features a guarded multi-role dashboard (Admin, Doctor, Receptionist, Pharmacist), vital sign alerts (visual neon-triage thresholds), a digital prescription builder with automatic stock warnings, hands-free voice-to-text dictation for consultations, secure QR code patient check-ins, automated invoice receipt generation (PDFKit) with QR verification, SMTP email notifications, keyboard-wedge barcode scanner interception for pharmacy sales, 80mm thermal receipt printing, and a HIPAA-compliant CSV audit trail exporter.
 - **[Guest Pulse (Localized AI Reputation Hub)](https://github.com/SadeepSachintha/Guest-Pulse):** A high-performance guest reputation intelligence platform designed for boutique hotels. Aggregates guest reviews from Google, Booking.com, and TripAdvisor, and uses a local Python FastAPI NLTK VADER sentiment microservice to classify aspect-based sentiments across hospitality verticals. Features dynamic Chart.js visualizations, a sliding options drawer with tone-specific AI response suggestions, GM warning alerts for negative reviews, and Levenshtein edit similarity audits.
 - **[StockSense AI (Predictive Demand Forecasting & Inventory SaaS)](https://github.com/SadeepSachintha/StockSense-AI):** A premium multi-tenant predictive inventory SaaS designed to optimize working capital and minimize stockouts. Combines a Laravel 12 multi-tenant core (Neon + TimescaleDB partitioned hypertables) with a Python FastAPI forecasting engine (LightGBM, Prophet, and LSTM on Render). Features automated Apache Airflow ETL ingestion pipelines, data quality checks via Great Expectations, MLflow tracking, automatic drift autorecovery, offline-resilient POS caching (Web Audio API feedback), smart SKU autocomplete, and a secure `/saas-admin` control panel.
 - **[Sync Retail (Air-Gap Friendly Offline-First POS & Cloud Sync)](https://github.com/SadeepSachintha/Sync-Retail):** An "air-gap friendly" offline-first Point of Sale (POS) register and cloud aggregator system. Employs local SQLite registers encrypted at rest (AES-256-CBC) that automatically queue and sync transactions to a serverless Neon PostgreSQL database via HTTPS + API Key headers. Features real-time WebSocket dashboard push updates, vector clocks for catalog delta replication, setting synchronization via HTML5 BroadcastChannel, audio-synthesized status beeps, Code39 barcode sticker creation, and keyboard-emulated global scanner interception.
