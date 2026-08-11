@@ -1,11 +1,15 @@
-# Sadeep Sachintha | Data Science & Full-Stack Portfolio
+# Sadeep Sachintha | Systems Engineer & MLOps Architect Portfolio
 
-Welcome to my professional portfolio! I am a Data Scientist and Full-Stack Developer bridging the gap between high-performance machine learning, distributed data engineering, and production-grade full-stack software systems.
+Welcome to my professional portfolio! I am a Systems Engineer and MLOps Architect bridging the gap between high-performance machine learning and scalable, production-grade infrastructure. Actively seeking a PhD position for the Fall 2027 intake to research automated deployment and self-healing data pipelines.
 
 🚀 **[View Live Portfolio](https://sadeepsachintha.github.io/portfolio-web/)**
 
 ## 👤 About Me
-I am an **MSc Data Science** student at Kingston University London and an **AWS Certified Cloud Practitioner** with a background as a Senior Service Desk Analyst. I specialize in the intersection of **MLOps, NLP, Data Engineering, and Full-Stack Web Development**, focusing on building reliable, observable, and automated production systems that bridge the gap between high-performance machine learning and operational excellence.
+My focus lies at the critical intersection of theoretical machine learning and production-grade deployment. As an **MSc Data Science student at Kingston University** and a graduate of the **University of Colombo School of Computing (UCSC)**, I specialize in architecting the robust infrastructure required to serve and monitor complex models at scale.
+
+Working professionally as a Lead Developer and Systems Engineer, I don't just build experimental algorithms; I build reliable, observable, and automated MLOps pipelines. By leveraging tools like **Docker, MLflow, and FastAPI**, I solve the deployment bottlenecks that frequently break down real-time forecasting models in volatile environments.
+
+I am actively seeking a funded PhD position for the 2027 cycle to further my research in continuous data integration, concept drift telemetry, and scalable AI architectures.
 
 ## 🛠️ Technology Stack
 - **MLOps & DevOps:** Docker, CI/CD (GitHub Actions), Prometheus, Grafana, MLflow, DagsHub, GHCR
@@ -18,6 +22,7 @@ I am an **MSc Data Science** student at Kingston University London and an **AWS 
 - **Frameworks:** ITIL / ITSM (Service Desk Operations)
 
 ## 📂 Featured Projects
+- **[Automated Commodity Price Forecasting](https://github.com/SadeepSachintha/mlo-pipeline-cbsl):** End-to-end MLOps pipeline for Sri Lankan retail markets. Features automated ingestion from CBSL, drift monitoring (KS-test), comparative baseline model evaluation, MLflow run logging, interactive visual analytics via Streamlit and Power BI dashboards, and 7-day recursive forecasting.
 - **[Aura MCMS (Standalone Turnkey Clinical & EMR Solution)](https://github.com/SadeepSachintha/Medical-Center-Management-System):** A high-performance, responsive, and completely offline-ready clinical management system designed for outpatient clinics and polyclinics. Operates as a single-tenant standalone deployment to ensure zero-latency queue voice announcements (Web Speech API) and complete data isolation. Features a guarded multi-role dashboard (Admin, Doctor, Receptionist, Pharmacist), vital sign alerts (visual neon-triage thresholds), a digital prescription builder with automatic stock warnings, hands-free voice-to-text dictation for consultations, secure QR code patient check-ins, automated invoice receipt generation (PDFKit) with QR verification, SMTP email notifications, keyboard-wedge barcode scanner interception for pharmacy sales, 80mm thermal receipt printing, and a HIPAA-compliant CSV audit trail exporter.
 - **[Guest Pulse (Localized AI Reputation Hub)](https://github.com/SadeepSachintha/Guest-Pulse):** A high-performance guest reputation intelligence platform designed for boutique hotels. Aggregates guest reviews from Google, Booking.com, and TripAdvisor, and uses a local Python FastAPI NLTK VADER sentiment microservice to classify aspect-based sentiments across hospitality verticals. Features dynamic Chart.js visualizations, a sliding options drawer with tone-specific AI response suggestions, GM warning alerts for negative reviews, and Levenshtein edit similarity audits.
 - **[StockSense AI (Predictive Demand Forecasting & Inventory SaaS)](https://github.com/SadeepSachintha/StockSense-AI):** A premium multi-tenant predictive inventory SaaS designed to optimize working capital and minimize stockouts. Combines a Laravel 12 multi-tenant core (Neon + TimescaleDB partitioned hypertables) with a Python FastAPI forecasting engine (LightGBM, Prophet, and LSTM on Render). Features automated Apache Airflow ETL ingestion pipelines, data quality checks via Great Expectations, MLflow tracking, automatic drift autorecovery, offline-resilient POS caching (Web Audio API feedback), smart SKU autocomplete, and a secure `/saas-admin` control panel.
@@ -32,7 +37,6 @@ I am an **MSc Data Science** student at Kingston University London and an **AWS 
 - **[Automated ML Deployment System](https://github.com/SadeepSachintha/Automated-ML-Deployment-System):** Production-grade MLOps pipeline automating the lifecycle from training to containerized deployment on Hugging Face Spaces.
 - **[Real-Time Analytics System for SL Market](https://github.com/SadeepSachintha/Real-Time-Analytics-System):** High-performance streaming data pipeline processing market prices in real-time using Kafka and Spark.
 - **[Sri Lankan Open Data ETL (DataOps)](https://github.com/SadeepSachintha/SL-Open-Data-Pipeline):** Enterprise ETL architecture implementing a Hybrid Data Lakehouse (Bronze/Silver/Gold) for weather and market data.
-- **[Automated Commodity Price Forecasting](https://github.com/SadeepSachintha/mlo-pipeline-cbsl):** End-to-end MLOps pipeline for Sri Lankan retail markets. Features automated ingestion from CBSL, drift monitoring (KS-test), comparative baseline model evaluation, MLflow run logging, interactive visual analytics via Streamlit and Power BI dashboards, and 7-day recursive forecasting.
 - **[CSE-Predictor 1.0](https://github.com/SadeepSachintha/CSE-Predictor-1.0):** Hybrid stock market prediction pipeline for the Colombo Stock Exchange using LSTM and interactive TradingView charts.
 - **[Real-Time Dividend Tracker](https://github.com/SadeepSachintha/Dividend-Tracker):** High-performance monitor for CSE announcements using a Producer-Consumer architecture and WebSockets.
 - **[HMS 2.0 (Hotel Management System)](https://github.com/SadeepSachintha/HMS):** Comprehensive hotel management platform with real-time room booking, role-based access control (RBAC), and automated billing. Features a secure invoice & payment management system with index/detail views, guest count validations, activity log auditing with dynamic filters, and automated Excel reporting exports.

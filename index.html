@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sadeep Sachintha | Data Science & Full-Stack Portfolio</title>
-    <meta name="description" content="Portfolio of Sadeep Sachintha, a Data Scientist and Full-Stack Developer specializing in MLOps, NLP, Data Engineering, and premium web applications.">
+    <title>Sadeep Sachintha | Systems Engineer & MLOps Architect Portfolio</title>
+    <meta name="description" content="Portfolio of Sadeep Sachintha, a Systems Engineer and MLOps Architect specializing in high-performance machine learning and scalable, production-grade infrastructure.">
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -45,12 +45,11 @@
         <div class="container hero-container">
             <div class="hero-content reveal">
                 <p class="greeting">Hello, I am Sadeep Sachintha</p>
-                <h1 class="glitch-text" data-text="Data Scientist & Developer.">Data Scientist & Developer.</h1>
-                <p class="subtitle">MSc Data Science student and AWS Certified Cloud Practitioner bridging the gap
-                    between high-performance machine learning, distributed data engineering, and production-grade full-stack systems.</p>
+                <h1 class="glitch-text" data-text="Systems Engineer & MLOps Architect.">Systems Engineer & MLOps Architect.</h1>
+                <p class="subtitle">MSc Data Science candidate at Kingston University bridging the gap between high-performance machine learning and scalable, production-grade infrastructure. Actively seeking a PhD position for the Fall 2027 intake to research automated deployment and self-healing data pipelines.</p>
                 <div class="hero-cta">
-                    <a href="#projects" class="btn btn-primary">View My Work</a>
-                    <a href="#contact" class="btn btn-secondary">Let's Talk</a>
+                    <a href="assets/Sadeep%20Sachintha_Academic%20CV.pdf" target="_blank" class="btn btn-primary">Download Academic CV</a>
+                    <a href="assets/Sadeep%20Sachintha_Research_Summary.pdf" target="_blank" class="btn btn-secondary">Read Research Summary</a>
                 </div>
                 <div class="social-links">
                     <a href="https://github.com/SadeepSachintha" target="_blank"><i class="fab fa-github"></i></a>
@@ -84,16 +83,9 @@ model.fit(X_train, y_train)
             </div>
             <div class="about-content">
                 <div class="about-text reveal left">
-                    <p>My journey didn't start with models and algorithms; it started with solving real-world IT
-                        problems. As a <strong>Senior Service Desk Analyst</strong> at MBiz Software, I honed my
-                        analytical skills, managed incidents with strict SLA adherence, and mastered ITIL processes in
-                        24x7 environments.</p>
-                    <p>Now, as an <strong>MSc Data Science</strong> student at Kingston University London and an
-                        <strong>AWS Certified Cloud Practitioner</strong>, I specialize in the intersection of
-                        <strong>MLOps, NLP, and Data Engineering</strong>. I don't just build models; I build reliable,
-                        observable, and automated production systems that bridge the gap between experimental research
-                        and operational excellence.
-                    </p>
+                    <p>My focus lies at the critical intersection of theoretical machine learning and production-grade deployment. As an <strong>MSc Data Science student at Kingston University</strong> and a graduate of the <strong>University of Colombo School of Computing (UCSC)</strong>, I specialize in architecting the robust infrastructure required to serve and monitor complex models at scale.</p>
+                    <p>Working professionally as a Lead Developer and Systems Engineer, I don't just build experimental algorithms; I build reliable, observable, and automated MLOps pipelines. By leveraging tools like <strong>Docker, MLflow, and FastAPI</strong>, I solve the deployment bottlenecks that frequently break down real-time forecasting models in volatile environments.</p>
+                    <p>I am actively seeking a funded PhD position for the 2027 cycle to further my research in continuous data integration, concept drift telemetry, and scalable AI architectures.</p>
                     <div class="skills">
                         <span class="skill-tag">MLOps & Observability</span>
                         <span class="skill-tag">Natural Language Processing (NLP)</span>
@@ -158,6 +150,32 @@ model.fit(X_train, y_train)
             </div>
 
             <div class="project-grid">
+                <!-- Project: Automated Commodity Price Forecasting (MLOps) -->
+                <div class="project-card glass-card reveal up" data-category="mlops">
+                    <img src="assets/mlops.png" alt="MLOps Pipeline" class="project-img">
+                    <div class="project-info">
+                        <h3>Automated Commodity Price Forecasting</h3>
+                        <p>End-to-end MLOps pipeline for Sri Lankan retail markets. Features automated ingestion from CBSL, drift monitoring (KS-test), comparative baseline model evaluation, MLflow run logging, interactive visual analytics via Streamlit and Power BI dashboards, and 7-day recursive forecasting.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>FastAPI</span>
+                            <span>MLflow</span>
+                            <span>Streamlit</span>
+                            <span>Power BI</span>
+                            <span>Docker</span>
+                            <span>DVC</span>
+                            <span>XGBoost</span>
+                            <span>Hugging Face</span>
+                            <span>GitHub Actions</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/SadeepSachintha/mlo-pipeline-cbsl" target="_blank"
+                                class="btn-small"><i class="fab fa-github"></i> Code</a>
+                            <a href="https://huggingface.co/spaces/dwssp/cbsl-commodity-forecast" target="_blank" class="btn-small"><i
+                                    class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
                 <!-- Project: Aura MCMS -->
                 <div class="project-card glass-card reveal up" data-category="web">
                     <img src="assets/aura_mcms.png" alt="Aura MCMS Dashboard" class="project-img">
@@ -487,32 +505,7 @@ model.fit(X_train, y_train)
                         </div>
                     </div>
                 </div>
-                <!-- Project 4: MLOps -->
-                <div class="project-card glass-card reveal up" style="transition-delay: 0.6s;" data-category="mlops">
-                    <img src="assets/mlops.png" alt="MLOps Pipeline" class="project-img">
-                    <div class="project-info">
-                        <h3>Automated Commodity Price Forecasting</h3>
-                        <p>End-to-end MLOps pipeline for Sri Lankan retail markets. Features automated ingestion from CBSL, drift monitoring (KS-test), comparative baseline model evaluation, MLflow run logging, interactive visual analytics via Streamlit and Power BI dashboards, and 7-day recursive forecasting.</p>
-                        <div class="project-tech">
-                            <span>Python</span>
-                            <span>FastAPI</span>
-                            <span>MLflow</span>
-                            <span>Streamlit</span>
-                            <span>Power BI</span>
-                            <span>Docker</span>
-                            <span>DVC</span>
-                            <span>XGBoost</span>
-                            <span>Hugging Face</span>
-                            <span>GitHub Actions</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://github.com/SadeepSachintha/mlo-pipeline-cbsl" target="_blank"
-                                class="btn-small"><i class="fab fa-github"></i> Code</a>
-                            <a href="https://huggingface.co/spaces/dwssp/cbsl-commodity-forecast" target="_blank" class="btn-small"><i
-                                    class="fas fa-external-link-alt"></i> Live Demo</a>
-                        </div>
-                    </div>
-                </div>
+
                 <!-- Project 5: CSE Predictor -->
                 <div class="project-card glass-card reveal up" style="transition-delay: 0.7s;" data-category="web">
                     <img src="assets/cse_predictor.png" alt="CSE Predictor" class="project-img">
